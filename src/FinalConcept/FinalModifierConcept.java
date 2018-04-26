@@ -1,17 +1,20 @@
 package FinalConcept;
 
-public final class FinalModifierConcept {
+public class FinalModifierConcept {
 
 	
 	
 	
 	
 	//we can declare methods as final.it prevent method overriding
-	
-	public final void car() {	
+	//we can override public methods and protected methods but to over ride private methods not possible
+	public  void car() {	
 System.out.println("car--class");			
 	}
 
+	protected void startcar() {	
+System.out.println("startcar--class");			
+	}
 	
 	public static void main(String[] args) {
 		// final is a modifier applicable for classes ,methods and variable 

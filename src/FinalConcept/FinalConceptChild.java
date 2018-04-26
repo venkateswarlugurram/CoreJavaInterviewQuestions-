@@ -10,7 +10,10 @@ public class FinalConceptChild extends FinalModifierConcept{
 	public  void car() {	//this is giving you compile time error because of final methods are can't be override.
 System.out.println("car--class");			
 	}
-
+	protected void startcar() {	
+		System.out.println("startcar--class");			
+			}
+			
 	
 	
 	public static void main(String[] args) {
