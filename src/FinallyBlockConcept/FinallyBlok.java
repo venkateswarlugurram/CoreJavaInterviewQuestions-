@@ -2,7 +2,7 @@ package FinallyBlockConcept;
 
 public class FinallyBlok {
 
-	//finally is a block always associated with try and catch block.
+	//finally is a block always associated with try and catch block to perform clean up activities
 	//finally block always executes even exception occurs.
 	// in try block we have specify the risk code and catch block write a code for handling 
 	//we can write multiple catch block for one single try block
