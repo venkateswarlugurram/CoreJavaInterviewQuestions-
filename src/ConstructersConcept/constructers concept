@@ -1,0 +1,85 @@
+Constructor defination:
+----------------------
+						Constructor is a special member method which is automatically called by jym whenever  an object is created
+						 for placing our own values without placing default values.
+				The main aim of a constructor is to initialize an object
+				
+Rules for writing a constructor:
+--------------------------------
+	1.Constructor name is must be similar to class name.
+	2.Constructor should not return any value even void also (if we write any return type to the constructor default treated as a method)	.
+	3.Constructors are not static only public,private,protected ( Because of constructors will call each and every time when ever an object is created ).
+	4.Constructors will not be inherited from one class to another class ( Because of every constructor is meant for initializing its own data members 
+		but not meant for initializing other class data members).
+	5.The access specifier of the constructor is may not may be private
+			a)If access specifier of constructor is private 
+			then we can create object of corresponding class in the same class context but not in other class context.
+			b)If access specifier of constructor is  not private 
+			then we can create object of corresponding class in the same class context and other class context.
+
+Types of Constructors:
+----------------------
+	Based on the object creation, constructors are classified into two types 
+	1.Default Constructors/parameterless/zero argument constructor
+	2.Parameterized Constructors
+	
+1.Default Constructors:
+------------------------
+		a constructor is said to default if and only if it never takes any parameters.
+												 (OR)
+				a constructor with zero parameters is called as default constructor.
+													(OR)
+			a constructor is said to be de+fault constructor when it doesn't have any parameters.
+													
+	-->THE PURPOSE OF DEFAULT CONSTRUCTOR IS TO CREATE MULTIPLE OBJECTS FOR PLACING SAME VALUES.
+note: if there is no constructor in java ,compiler will create default constructor .	
+	
+2.Parameterized Constructor:
+-----------------------------
+			a constructor is said to parameterized if and only if it always takes parameters.
+												(OR)			
+			a constructor which has specific number of parameters is called parameterized constructor.
+				
+	-->THE PURPOSE OF PARAMETERIZED CONSTRUCTOR IS TO CREATE MULTIPLE OBJECTS FOR PLACING DIFFERENT VALUES.
+				
+	note:if we create an object with parameterized constructor then it is mandatory to programmer to define parameterized constructor other wise
+	it will throws compile tile error.
+	 
+				
+	Example------
+				package ConstructersConcept;
+
+public class ParameterizedConstructor {
+
+	ParameterizedConstructor(int a){
+		System.out.println(a);
+	}
+	
+	
+	public static void main(String[] args) {
+
+	// ParameterizedConstructor pcons=new ParameterizedConstructor(); 	
+	}
+
+}
+				
+3.Object Parameterized Constructor:
+--------------------------------------
+
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
